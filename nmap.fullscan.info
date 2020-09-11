@@ -1,0 +1,19 @@
+USAGE:
+
+NMAP TOOL
+this tool print all scripts you can run in Nmap and makes it mor confortable to run a network scan...
+
+NMAP OPTIONS
+nmap -sS -sV -Pn --script "this is what you choose" -p "your ports" "choosen IP"
+
+compile:
+gcc nmap.fullscan.c -o scriptscan_nmap.exe
+run:
+sudo ./scriptscan_nmap.exe
+
+the rest is easy to use... 
+
+first type your wish script...
+than the ports to scan...
+than the IP Address to scan..
+finish!!
